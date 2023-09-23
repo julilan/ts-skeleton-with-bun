@@ -1,5 +1,5 @@
 {
-  "name": "project-setup",
+  "name": "typescript-skeleton-with-bun",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -15,5 +15,8 @@
   },
   "devDependencies": {
     "bun-types": "^1.0.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }
