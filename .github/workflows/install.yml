@@ -1,0 +1,12 @@
+name: bun-types
+jobs:
+  build:
+    name: Install bun and dependencies
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Install bun
+        uses: oven-sh/setup-bun@v1
+      - name: Install dependencies
+        run: bun install
