@@ -12,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "lite-server": "^2.6.1"
+  },
+  "devDependencies": {
+    "bun-types": "^1.0.3"
   }
 }
